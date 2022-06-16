@@ -1,0 +1,17 @@
+
+  <h1>Contacts List </h1>
+  <div class="d-flex flex-row">
+    <div  *ngFor="let c of contacts" class="p-2">
+  
+      <div   class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.iconspng.com/uploads/young-user-icon.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Name : {{c.name}}</h5>
+          <p class="card-text">Contact Email : {{c.email}}</p>
+          <a href="#" class="btn btn-primary">Edit</a>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+

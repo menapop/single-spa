@@ -1,0 +1,59 @@
+.main {
+  margin-top: 5em;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.item {
+  padding: 15px 0px !important;
+}
+
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.right {
+  float: right !important;
+}
+.center-div {
+  text-align: center;
+}
+
+
+
+.custom-ui {
+  background: gray;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin: 0 0 0 -150px;
+  padding-top:15px;
+}
+
+.custom-ui button {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 150px;
+  height: 2rem;
+  margin: 1rem;
+  color: white;
+}
+
+
+.inline {
+  display: inline;
+}
